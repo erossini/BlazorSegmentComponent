@@ -64,10 +64,10 @@ There are 4 themes embedded in the segment control.
 ![Blazor-Segmentation-example-blue](https://user-images.githubusercontent.com/9497415/137144166-532c1055-1afa-47bf-8fcb-e0c5f988f86f.gif)
 
 **Green**
-![Example Segment in green](https://www.puresourcecode.com/wp-content/uploads/2021/10/BlazorSegmentation-example-green.gif)
+![Blazor-Segmentation-example-green](https://user-images.githubusercontent.com/9497415/137144290-3684cae8-9730-4fb1-a3b4-894a7326b275.gif)
 
 **Red**
-![Example Segment in red](https://www.puresourcecode.com/wp-content/uploads/2021/10/Blazor-Segmentation-example-red.gif)
+![Blazor-Segmentation-example-red](https://user-images.githubusercontent.com/9497415/137144310-83b864eb-59e9-4dee-b73e-7eb3fd62fdae.gif)
 
 **Light Colors**
-![Example Segment in lightcolors](https://www.puresourcecode.com/wp-content/uploads/2021/10/Blazor-Segmentation-example-lightcolors.gif)
+![Blazor-Segmentation-example-lightcolors](https://user-images.githubusercontent.com/9497415/137144333-879efdc6-41b2-41b3-9e3a-ef73bf7a400b.gif)
