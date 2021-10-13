@@ -61,7 +61,7 @@ public async Task OnSegmentChanged(Segment segment)
 There are 4 themes embedded in the segment control.
 
 **Blue**
-![Example Segment in blue](https://www.puresourcecode.com/wp-content/uploads/2021/10/Blazor-Segmentation-example-blue.gif)
+![Blazor-Segmentation-example-blue](https://user-images.githubusercontent.com/9497415/137144166-532c1055-1afa-47bf-8fcb-e0c5f988f86f.gif)
 
 **Green**
 ![Example Segment in green](https://www.puresourcecode.com/wp-content/uploads/2021/10/BlazorSegmentation-example-green.gif)
