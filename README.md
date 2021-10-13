@@ -61,13 +61,13 @@ public async Task OnSegmentChanged(Segment segment)
 There are 4 themes embedded in the segment control.
 
 **Blue**
-![Example Segment in blue](https://www.puresourcecode.com/wp-content/uploads/2021/10/Blazor-Segmentation-example-blue.gif)
+![Blazor-Segmentation-example-blue](https://user-images.githubusercontent.com/9497415/137113256-9cc7d99f-4d3b-4914-894b-dfea51e4cc92.gif)
 
 **Green**
-![Example Segment in green](https://www.puresourcecode.com/wp-content/uploads/2021/10/BlazorSegmentation-example-green.gif)
+![Blazor-Segmentation-example-green](https://user-images.githubusercontent.com/9497415/137113280-6ff0f8e7-9db4-4e9f-bf33-ba9bd72542e3.gif)
 
 **Red**
-![Example Segment in red](https://www.puresourcecode.com/wp-content/uploads/2021/10/Blazor-Segmentation-example-red.gif)
+![Blazor-Segmentation-example-red](https://user-images.githubusercontent.com/9497415/137113336-489abf47-ed40-461b-a8de-d2052924686e.gif)
 
 **Light Colors**
-![Example Segment in lightcolors](https://www.puresourcecode.com/wp-content/uploads/2021/10/Blazor-Segmentation-example-lightcolors.gif)
+![Blazor-Segmentation-example-lightcolors](https://user-images.githubusercontent.com/9497415/137113307-5ae60487-9e45-4f3e-9191-2e519ab2e3ba.gif)
