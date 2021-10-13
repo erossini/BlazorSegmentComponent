@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Blazor component for segment</Description>
+    <PackageIcon>psc_logo.png</PackageIcon>
+    <RepositoryType>git, devops</RepositoryType>
+    <PackageTags>blazor, blazor-components,</PackageTags>
+    <PackageReleaseNotes>Blazor component for segment</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Authors>Enrico Rossini</Authors>
+    <Company>Enrico Rossini - PureSourceCode.com</Company>
+    <Copyright>Enrico Rossini - PureSourceCode.com</Copyright>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+		<None Include="psc_logo.ico" Pack="true" PackagePath="" />
+		<None Include="psc_logo.png" Pack="true" PackagePath="" />
+    <None Include="LICENSE.txt">
+		  <Pack>True</Pack>
+		  <PackagePath></PackagePath>
+		</None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,46 @@
+﻿<CascadingValue Value="this">
+    <div class="segment-control">
+        <ul class="segments">
+            @foreach (Segment tabPage in Pages)
+            {
+                <li class="@GetButtonClass(tabPage)"
+                    @onclick=@( () => ActivatePage(tabPage) )>
+                    @tabPage.Text
+                </li>
+            }
+        </ul>
+    </div>
+    @ChildContent
+</CascadingValue>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    
+    [Parameter]
+    public EventCallback<Segment> OnSegmentChanged { get; set; }
+
+    public virtual void SegmentChanged(Segment segment) { }
+
+    public Segment ActivePage { get; set; }
+    List<Segment> Pages = new List<Segment>();
+
+    internal void AddPage(Segment tabPage)
+    {
+        Pages.Add(tabPage);
+        if (Pages.Count == 1)
+            ActivePage = tabPage;
+        StateHasChanged();
+    }
+
+    string GetButtonClass(Segment page)
+    {
+        return page == ActivePage ? "selected" : "";
+    }
+
+    async Task ActivatePage(Segment page)
+    {
+        ActivePage = page;
+        await OnSegmentChanged.InvokeAsync(page);
+    }
+}

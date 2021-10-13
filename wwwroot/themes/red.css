@@ -1,0 +1,43 @@
+﻿.segment-control {
+    padding: 2px;
+    width: 100%;
+    border: 1px solid #CD4A45;
+    border-radius: 3px;
+}
+
+.segments {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    -webkit-box-sizing: border-box;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.segments ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    .segments > li {
+        cursor: pointer;
+        margin: 2px;
+        display: block;
+        text-align: center;
+        background-color: #ffffff;
+        border-color: #CD4A45;
+        border-radius: 3px;
+        color: #CD4A45;
+        font-size: 12px;
+        padding: 2px;
+        -webkit-box-flex: 1;
+        -webkit-border-top-left-radius: 3px;
+        -webkit-border-bottom-left-radius: 3px;
+        -webkit-border-top-right-radius: 3px;
+        -webkit-border-bottom-right-radius: 3px;
+    }
+
+        .segments > li.selected {
+            background-color: #F9EBEB;
+            color: #CD4A45;
+        }
